@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import MuiThemProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
-import ImageViewer from './components/ImageViewer';
+import SearchField from './components/SearchField';
 
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <AppBar
             title= 'Image Viewer'
             showMenuIconButton={false}/>
-          <ImageViewer />
+          <SearchField />
         </div>
       </MuiThemProvider>
     );
